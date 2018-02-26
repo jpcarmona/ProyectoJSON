@@ -9,4 +9,4 @@ Proyecto de Lenguaje de Marcas de JSON
 
 4.Pide por teclado provincia, sexo(hombre,mujer,total) y año, muestra la población de esa busqueda.
 
-5.Muestra las provincias listadas por año en el que la población mayor en ese año y provincia es de un sexo concreto.(Parecido al 2 pero en vez de contar muestra esas provincias).
+5.Muestra las provincias listadas por año en el que la población mayor en ese año y provincia es de un sexo concreto.Se podrá filtrar por rango de población.(Parecido al 2 pero en vez de contar muestra esas provincias)
