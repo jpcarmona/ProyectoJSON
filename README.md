@@ -1,12 +1,12 @@
 # ProyectoJSON
 Proyecto de Lenguaje de Marcas de JSON
 
-1.Listar ciudades y poblaciones por sexo
+1.Listar las provincias que tengan mas de "x" población total en un año en concreto.
 
-2.Contar ciudades y años
+2.Contar las provincias que tengan mas población de un sexo que de otro (opcion1: mas mujeres que hombres, opcion2: mas hombres que mujeres) listado por años.
 
-3.Buscar un año y muestra sus poblaciones
+3.Pide por teclado año y rango de población, muestra esas provincias y que sexo tiene mas población en dicha provincia.
 
-4.Buscar una ciudad por sexo  y año y decir poblacion
+4.Pide por teclado provincia, sexo(hombre,mujer,total) y año, muestra la población de esa busqueda.
 
-5.Mostrar las provincias que en un año determinado hay mas mujeres que hombres
+5.Muestra un listado de las provincias por año en el que la población mayor en ese año y provincia es de un sexo concreto.(Parecido al 2 pero en vez de contar muestra esas provincias).
