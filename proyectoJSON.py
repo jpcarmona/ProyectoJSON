@@ -1,9 +1,10 @@
 import json
-from funciones import opcion1
+from funciones import borrado_total,opcion1,opcion2,opcion3
 
 with open("poblacion.json") as fichero:
 	datos=json.load(fichero)
 
+borrado_total(datos)
 
 while True:
 	print("""Elija una opción de las siguientes 5 (\"0\" para salir)\n
@@ -27,7 +28,7 @@ con mayor población en cada provincia.
 				break			
 			años=[]
 			num=0
-			print("Escriba los años deseados comprendidos entre 1998-2017 o 1996")
+			print("Escriba los años deseados comprendidos entre 1998-2017 o sea 1996")
 			while True:
 				num+=1
 				año=int(input("Año {} (0) para continuar: ".format(num)))
@@ -49,7 +50,20 @@ con mayor población en cada provincia.
 				sexo="Mujeres"
 			opcion2(datos,sexo)
 	if opcion=="3":
-		asd
+		while True:
+			año1=int(input("Elija un año que esté comprendido entre 1998-2017 o sea 1996 (0 para volver):\n"))
+			print("")
+			if año1==0:
+				break
+			rango1=int(input("Elija el rango1 de población:\n"))
+			while True:
+				rango2=int(input("Elija el rango2 de población:\n"))
+				if rango2<rango1:
+					print("Por favor elija un rango2 mayor al de rango1")
+				else:
+					break
+			print("")
+			opcion3(rango1,rango2,año1,datos)
 	if opcion=="4":
 		asd
 	if opcion=="5":
