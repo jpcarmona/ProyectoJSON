@@ -95,5 +95,10 @@ def opcion3(rango1,rango2,año1,datos):
 		print("")
 				
 
+def opcion4(provincia,sexo,año,datos):
 
+
+
+def opcion5(sexo,datos):
+	
 
